@@ -35,4 +35,18 @@ Step 7: Return True.
 
 Step 8: Return False.
 
+## Approach 2
 
+Below are the steps to determine whether the string contains an equal number of A and B:
+
+Step 1: Initialize a key variable and an empty stack.
+
+Step 2: Begin a loop to cover the entire string.
+
+Step 3: If the length of the stack is 0 and the key is not equal to the current element, store the current element in the key and push the key to the stack.
+
+Step 4: Else if the current element is not equal to the key, pop a value from the stack.
+
+Step 5: Else push the key to the stack.
+
+Step 6: At the end of the loop, if the length of the stack is 0, return True; otherwise, return False.
